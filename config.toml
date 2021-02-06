@@ -1,0 +1,88 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = ".dev"
+
+# https://github.com/dataCobra/hugo-vitae
+theme = "hugo-vitae"
+copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params]
+    # Use homepage.md instead of a list of posts
+    homepage = false
+
+    # Add meta keywords in head part (Site Keywords or Tags of Page)
+    keywords = ["hugo","vitae","theme","static"]
+
+    # Add meta description in head part
+    description = "Vitae is a blog theme for Hugo that focuses on your content."
+
+    # Add pagetitle to homepage <title> tag
+    pagetitle = "All about static site generation"
+
+    # Add a subtitle to your website
+    subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+
+    # Optional 80x80 avatar image.
+    avatar = "/img/daniel_burkholder_thumbnail.png"
+
+    # Optional favicons for website
+    #favicon = true
+
+    # Add list of sections that should show up on the homepage
+    # mainSections = ["post"]
+
+    # Add list of Sections/Types that should no be considered by RSS
+    #nofeedSections = ["post"]
+
+    # Deactivate Taxonomies for specific page types
+    #disableTaxoTypes = [""]
+
+    # Custom CSS applied to default styles. (Path could be "static/css/")
+    #customCSS = "css/custom.css"
+
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+# [[menu.main]]
+# name = "All Posts"
+# url = "/post"
+# weight = 2
+
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 3
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 4
+
+# [[menu.main]]
+# name = "Categories"
+# url = "/categories"
+# weight = 5
+
+# Social Menu
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/danburkhol"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/danburkhol/"
+
+#[[params.social]]
+#name = "Email"
+#icon = "fas fa-envelope"
+#cmd = "mailto:daniel@burkholder.dev"
